@@ -1,0 +1,85 @@
+{
+    "system": {
+        "description": "Some system routes",
+        "routes": {
+            "health": {
+                "description": "Route created on base system health handler",
+                "handler": "base-handler",
+                "methods": ["get"]
+            },
+            "info": {
+                "description": "Route created on base system health handler",
+                "handler": "base-info",
+                "methods": ["get"]
+            },
+            "map": {
+                "description": "Route creted on base system map handler",
+                "handler": "base-json",
+                "methods": ["get"]
+            }
+        }
+    },
+    "api": {
+        "description": "Root routes group",
+        "on-request": "on-root-request-middlewares",
+        "on-response": "on-root-respose-middlewares",
+        "routes": {
+            "system": {
+                "description": "Some system routes",
+                "routes": {
+                    "health": {
+                        "description": "Route created on base system health handler",
+                        "handler": "base-handler",
+                        "methods": ["get"]
+                    },
+                    "info": {
+                        "description": "Route created on base system health handler",
+                        "handler": "base-info",
+                        "methods": ["get"]
+                    },
+                    "map": {
+                        "description": "Route creted on base system map handler",
+                        "handler": "base-json",
+                        "methods": ["get"]
+                    }
+                }
+            },
+            "v1": {
+                "description": "API routes group",
+                "on-request": "on-request-grout-middleware",
+                "on-response": "on-responce-group-middleware",
+                "routes": {
+                    "system": {
+                        "health": {
+                            "description": "Route created on base system health handler",
+                            "handler": "base-handler",
+                            "methods": ["get"]
+                        },
+                        "info": {
+                            "description": "Route created on base system health handler",
+                            "handler": "base-info",
+                            "methods": ["get"]
+                        },
+                        "map": {
+                            "description": "Route creted on base system map handler",
+                            "handler": "base-json",
+                            "methods": ["get"]
+                        }
+                    },
+                    "points": {
+                        "description": "Family routes creted on base REST handler",
+                        "handler": "base-list-rest",
+                        "on-request": "on-request-middleware",
+                        "on-response": "on-responce-middleware",
+                        "methods": ["get", "post"]
+                    },
+                    "points/:uuid": {
+                        "description": "Family routes created on base REST handler",
+                        "handler": "base-entity-handler",
+                        "methods": ["get", "put", "delete"]
+                    }
+                }
+            }
+        }
+    }
+}

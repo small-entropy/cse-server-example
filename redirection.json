@@ -1,0 +1,56 @@
+{
+    "multipleChoicese": {
+        "type": "fail",
+        "status": "Mulriple Choices",
+        "code": 300,
+        "message": "Multiple choices"
+    },
+    "movedPermanently": {
+        "type": "fail",
+        "status": "Moved Permanently",
+        "code": 301,
+        "message": "Moved Permanently"
+    },
+    "movedTemporarily": {
+        "type": "fail",
+        "status": "Moved Temporarily",
+        "code": 302,
+        "message": "Moved Temporarily"
+    },
+    "found": {
+        "type": "fail",
+        "status": "Found",
+        "code": 302,
+        "message": "Found"
+    },
+    "seeOther": {
+        "type": "fail",
+        "status": "See Other",
+        "code": 303,
+        "message": "See Other"
+    },
+    "notModified": {
+        "type": "fial",
+        "status": "Not Modifited",
+        "code": 304,
+        "message": "Not Modified"
+    },
+    "useProxy": {
+        "type": "fail",
+        "status": "Use Proxy",
+        "code": 305,
+        "message": "Use Proxy"
+    },
+    "temproraryRedirect": {
+        "type": "fail",
+        "status": "Temporary Redirect",
+        "code": 307,
+        "message": "Temporary Redirect"
+    },
+    "permanentRedirect": {
+        "type": "fail",
+        "status": "Permanent Redirect",
+        "code": 308,
+        "message": "Permanent Redirect"
+    }
+}

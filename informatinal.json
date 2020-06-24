@@ -1,0 +1,20 @@
+{
+    "continue": {
+        "type": "informational",
+        "status": "Continue",
+        "code": 100,
+        "message": "Continue"
+    },
+    "switchingProtocols": {
+        "type": "informational",
+        "status": "Swhitching Protocol",
+        "code": 101,
+        "message": "Switching Protocol"
+    },
+    "processing": {
+        "type": "informational",
+        "status": "Processing",
+        "code": 101,
+        "message": "Processing"
+    }
+}

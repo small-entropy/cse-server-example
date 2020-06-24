@@ -1,0 +1,10 @@
+{
+    "http": {
+        "port": "5001",
+        "database": {
+            "name": "testdb",
+            "user": "testuser"
+            "password": "testpwd123"
+        }
+    }
+}

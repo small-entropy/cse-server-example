@@ -1,0 +1,188 @@
+{
+    "badRequest": {
+        "type": "client-error",
+        "status": "Bad Request",
+        "code": 400,
+        "message": "Base Request"
+    },
+    "unauthorized": {
+        "type": "client-error",
+        "status": "Unauthorized",
+        "code": 401,
+        "message": "Unauthorized"
+    },
+    "paymentRequired": {
+        "type": "client-error",
+        "status": "Payment Required",
+        "code": 402,
+        "message": "Payment Required"
+    },
+    "forbidden": {
+        "type": "client-error",
+        "status": "Forbidden",
+        "code": 403,
+        "message": "Forbidden"
+    },
+    "notFound": {
+        "type": "clien-error",
+        "status": "Not Found",
+        "code": 404,
+        "message": "Not found"
+    },
+    "methodNotAllowed": {
+        "type": "client-error",
+        "status": "Method Not Allowed",
+        "code": 404,
+        "message": "Method Not Allowed"
+    },
+    "notAcceptable": {
+        "type": "client-error",
+        "status": "Not Acceptable",
+        "code": 406,
+        "message": "Not Acceptable"
+    },
+    "proxyAuthenticationRequired": {
+        "type": "client-error",
+        "status": "Proxy Authentication Required",
+        "code": 407,
+        "message": "Proxy Authentication Required"
+    },
+    "requestTimeout": {
+        "type": "client-error",
+        "status": "Request Timeout",
+        "code": 407,
+        "message": "Request Timeout"
+    },
+    "conflict": {
+        "type": "client-error",
+        "status": "Conflict",
+        "code": 409,
+        "message": "Conflict"
+    },
+    "Gone": {
+        "type": "client-error",
+        "status": "Gone",
+        "code": 410,
+        "message": "Gone"
+    },
+    "lengthRequired": {
+        "type": "client-error",
+        "status": "Length Required",
+        "code": 411,
+        "message": "Length Required"
+    },
+    "preconditionFailed": {
+        "type": "client-error",
+        "status": "Precondition Failed",
+        "code": 412,
+        "message": "Precondition Failed"
+    },
+    "payloadTooLarge": {
+        "type": "client-error",
+        "status": "Payload Too Large",
+        "code": 413,
+        "message": "Payload Too Large"
+    },
+    "uriTooLong": {
+        "type": "client-error",
+        "status": "URI Too Long",
+        "code": 414,
+        "message": "URI Too Long"
+    },
+    "unsupportedMediaType": {
+        "type": "client-error",
+        "status": "Unsupported Media Type",
+        "code": 414,
+        "message": "Unsupported Media Type"
+    },
+    "rangeNotSatisfiable": {
+        "type": "client-error",
+        "status": "Range Not Satisfiable",
+        "code": 416,
+        "message": "Range Not Satisfiable"
+    },
+    "expectationFailed": {
+        "type": "client-error",
+        "status": "Expectation Failed",
+        "code": 417,
+        "message": "Expectation Failed"
+    },
+    "iAmTapot": {
+        "type": "client-error",
+        "status": "I Am Teapot",
+        "code": 418,
+        "message": "I’m a teapot"
+    },
+    "authenticationTimeout": {
+        "type": "client-error",
+        "status": "Authentication Timeout",
+        "code": 419,
+        "message": "Authentication Timeout"
+    },
+    "misdirectedRequest": {
+        "type": "client-error",
+        "status": "Misdirected Request",
+        "code": 421,
+        "message": "Misdirected Request"
+    },
+    "unprocessableEntity": {
+        "type": "client-error",
+        "status": "Unprocessable Entity",
+        "code": 422,
+        "message": "Unprocessable Entity"
+    },
+    "locked": {
+        "type": "client-error",
+        "status": "Locked",
+        "code": 423,
+        "message": "Locked"
+    },
+    "failedDependency": {
+        "type": "client-error",
+        "status": "Failed Dependency",
+        "code": 424,
+        "message": "Failed Dependency"
+    },
+    "upgradeRequired": {
+        "type": "client-error",
+        "status": "Upgrade Required",
+        "code": 426,
+        "message": "Upgrade Required"
+    },
+    "preconditionRequired": {
+        "type": "client-error",
+        "status": "Precondition Required",
+        "code": 428,
+        "message": "Precondition Required"
+    },
+    "tooManyRequests": {
+        "type": "client-error",
+        "status": "Too Many Requests",
+        "code": 429,
+        "message": "Too Many Requests"
+    },
+    "requestHeaderFieldsTooLarge": {
+        "type": "client-error",
+        "status": "Request Header Fields Too Large",
+        "code": 431,
+        "message": "Request Header Fields Too Large"
+    },
+    "retryWith": {
+        "type": "client-error",
+        "status": "Retry With",
+        "code": 449,
+        "message": "Retry With"
+    },
+    "unavailableForLegalReasons": {
+        "type": "client-error",
+        "status": "Unavailable For Legal Reasons",
+        "code": 451,
+        "message": "Unavailable For Legal Reasons"
+    },
+    "clientClosedRequest": {
+        "type": "client-error",
+        "status": "Client Closed Request",
+        "code": 449,
+        "message": "Client Closed Request"
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "ok": {
+        "type": "success",
+        "status": "OK",
+        "code": 200,
+        "message": "Ok"
+    },
+    "created": {
+        "type": "success",
+        "status": "Created",
+        "code": 201,
+        "message": "Entry created"
+    },
+    "accepted": {
+        "type": "success",
+        "status": "OK",
+        "code": 202,
+        "message": "Accepted"
+    },
+    "nonAuthoriativeInformation": {
+        "type": "success",
+        "status": "Non-Authoriative Information",
+        "code": 203,
+        "message": "Non-Authoriative Information"
+    },
+    "noContent": {
+        "type": "success",
+        "status": "No Content",
+        "code": 204,
+        "message": "No Content"
+    },
+    "resetContent": {
+        "type": "success",
+        "status": "Reset Content",
+        "code": 205,
+        "message": "Reset content"
+    },
+    "partialContent": {
+        "type": "success",
+        "status": "Partial Content",
+        "code": 206,
+        "message": "Partial content"
+    },
+    "multiStatus": {
+        "type": "success",
+        "status": "Multi-Status",
+        "code": 207,
+        "message": "Multi Status"
+    },
+    "alreadyReported": {
+        "type": "success",
+        "status": "AlreadyReported",
+        "code": 208,
+        "message": "Already Reported"
+    },
+    "imUsed": {
+        "type": "success",
+        "status": "IM Used",
+        "code": 226,
+        "message": "IM Used"
+    }
+}

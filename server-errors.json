@@ -1,0 +1,116 @@
+{
+    "internalServerError": {
+        "type": "server-error",
+        "status": "Internal Server Error",
+        "code": 500,
+        "message": "Internal Server Error"
+    },
+    "notImplemented": {
+        "type": "server-error",
+        "status": "Not Implemented",
+        "code": 501,
+        "message": "Not Implemented"
+    },
+    "badGateway": {
+        "type": "server-error",
+        "status": "Bad Gateway",
+        "code": 502,
+        "message": "Bad Gateway"
+    },
+    "serviceUnavailable": {
+        "type": "server-error",
+        "status": "Service Unavailable",
+        "code": 503,
+        "message": "Service Unavailable"
+    },
+    "gatewayTimeout": {
+        "type": "server-error",
+        "status": "Gateway Timeout",
+        "code": 504,
+        "message": "Gateway Timeout"
+    },
+    "httpVersionNotSupported": {
+        "type": "server-error",
+        "status": "HTTP Version Not Supported",
+        "code": 505,
+        "message": "HTTP Version Not Supported"
+    },
+    "variantAlsoNegotiates": {
+        "type": "server-error",
+        "status": "Variant Also Negotiates",
+        "code": 506,
+        "message": "Variant Also Negotiates"
+    },
+    "insufficientStorage": {
+        "type": "server-error",
+        "status": "Insufficient Storage",
+        "code": 507,
+        "message": "Insufficient Storage"
+    },
+    "loopDetected": {
+        "type": "server-error",
+        "status": "Loop Detected",
+        "code": 508,
+        "message": "Loop Detected"
+    },
+    "bandwidthLimitExceeded": {
+        "type": "server-error",
+        "status": "Bandwidth Limit Exceeded",
+        "code": 509,
+        "message": "Bandwidth Limit Exceeded"
+    },
+    "notExtended": {
+        "type": "server-error",
+        "status": "Not Extended",
+        "code": 510,
+        "message": "Not Extended"
+    },
+    "networkAuthenticationRequired": {
+        "type": "server-error",
+        "status": "Network Authentication Required",
+        "code": 510,
+        "message": "Network Authentication Required"
+    },
+    "unknownError": {
+        "type": "server-error",
+        "status": "Unknown Error",
+        "code": 520,
+        "message": "Unknown Error"
+    },
+    "webServerIsDown": {
+        "type": "server-error",
+        "status": "Web Server Is Down",
+        "code": 521,
+        "message": "Web Server Is Down"
+    },
+    "connectionTimedOut": {
+        "type": "server-error",
+        "status": "Connection Timed Out",
+        "code": 522,
+        "message": "Connection Timed Out"
+    },
+    "originIsUnreachable": {
+        "type": "server-error",
+        "status": "Origin Is Unreachable",
+        "code": 523,
+        "message": "Origin Is Unreachable"
+    },
+    "aTimeoutOccurred": {
+        "type": "server-error",
+        "status": "A Timeout Occurred",
+        "code": 523,
+        "message": "A Timeout Occurred"
+    },
+    "sslHandshakeFailed": {
+        "type": "server-error",
+        "status": "SSL Handshake Failed",
+        "code": 525,
+        "message": "SSL Handshake Failed"
+    },
+    "invalidSSLCertificate": {
+        "type": "server-error",
+        "status": "Invalid SSL Certificate",
+        "code": 526,
+        "message": "Invalid SSL Certificate"
+    }
+}
