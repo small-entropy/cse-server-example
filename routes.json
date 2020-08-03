@@ -5,7 +5,13 @@
             "health": {
                 "description": "Route created on base system health handler",
                 "handler": "base-handler",
-                "methods": ["get"]
+                "methods": ["get"],
+                "answer": {
+                    "title": "Custom message title",
+                    "message": "Custom API message",
+                    "description": "Custom answer description",
+                    "data": [1, 2, 3]
+                }
             },
             "info": {
                 "description": "Route created on base system health handler",
@@ -50,20 +56,23 @@
                 "on-response": "on-responce-group-middleware",
                 "routes": {
                     "system": {
-                        "health": {
-                            "description": "Route created on base system health handler",
-                            "handler": "base-handler",
-                            "methods": ["get"]
-                        },
-                        "info": {
-                            "description": "Route created on base system health handler",
-                            "handler": "base-info",
-                            "methods": ["get"]
-                        },
-                        "map": {
-                            "description": "Route creted on base system map handler",
-                            "handler": "base-json",
-                            "methods": ["get"]
+                        "description": "Some system routes",
+                        "routes": {
+                            "health": {
+                                "description": "Route created on base system health handler",
+                                "handler": "base-handler",
+                                "methods": ["get"]
+                            },
+                            "info": {
+                                "description": "Route created on base system health handler",
+                                "handler": "base-info",
+                                "methods": ["get"]
+                            },
+                            "map": {
+                                "description": "Route creted on base system map handler",
+                                "handler": "base-json",
+                                "methods": ["get"]
+                            }
                         }
                     },
                     "points": {
